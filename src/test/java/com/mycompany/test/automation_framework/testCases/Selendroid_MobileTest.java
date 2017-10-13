@@ -39,7 +39,8 @@ public class Selendroid_MobileTest {
 	  
 	  @BeforeTest
 	  public void testSel() throws Exception
-	  {
+	  {		
+		  //Creating selendroid Config and starting Selendroid Server programatically
 		  config = new SelendroidConfiguration();
 		  selendroidServer = new SelendroidLauncher(config);
 		  selendroidServer.launchSelendroid();
