@@ -62,7 +62,7 @@ public class Curd_APITest {
 				url = new URL(Constants.url);
 				con = (HttpURLConnection) url.openConnection();
 				//Get - Delete - Put - Post - Patch
-				con.setRequestMethod("GET");
+				con.setRequestMethod("POST");
 				con.setReadTimeout(5000); // 5 seconds timeout
 				con.setRequestProperty("Content-Type", "application/json");
 				con.setDoOutput(Boolean.TRUE);
